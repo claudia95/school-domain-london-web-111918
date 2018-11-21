@@ -28,9 +28,6 @@ end
 
 def sort
   roster.each { |grade, names| names.sort! {|a, b| a <=> b} }
-  
-  
-  #roster[grade].sort
 end
 
 end
