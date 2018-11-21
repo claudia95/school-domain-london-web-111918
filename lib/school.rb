@@ -2,8 +2,8 @@
 
 class School
 
-attr_accessor :name, :grade
-@@grade_count = 0
+attr_accessor :roster, :name, :grade
+
   
 def initialize(school_name)
   @school_name = school_name
