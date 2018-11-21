@@ -20,7 +20,7 @@ def add_student(name, grade)
 end
 
 def grade(grade)
-  roster.map { |grade, name| name }
-  #roster.map {|grade| grade.names}
+  roster[grade] 
+  
 end  
 end
