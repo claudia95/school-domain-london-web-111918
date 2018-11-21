@@ -27,7 +27,7 @@ def grade(grade)
 end  
 
 def sort(grade)
-  roster.values.sort_by! { |a, b| a <=> b }
+  roster.values.sort_by! { |a, b| grade[names] }
 end
 
 end
