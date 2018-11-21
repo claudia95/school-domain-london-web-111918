@@ -11,6 +11,9 @@ def initialize(school_name)
 end
 
 def add_student(name, grade)
+  # roster[grade] ||= []
+  # roster[grade] << name 
+  
   if roster.has_key?(grade)
     roster[grade] << name
   else
@@ -21,6 +24,9 @@ end
 
 def grade(grade)
   roster[grade] 
-  
 end  
+
+def sort(grade)
+  roster[grade]
+
 end
