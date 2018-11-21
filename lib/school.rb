@@ -10,8 +10,5 @@ def initialize(school_name)
   @roster = {}
 end
 
-def self.grade_count
-  @@grade_count
-end
   
 end
