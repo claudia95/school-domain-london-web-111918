@@ -20,7 +20,7 @@ def add_student(name, grade)
 end
 
 def grade=(grade)
-  @grade = grade
+  
   #roster.map {|grade| grade.names}
 end  
 end
